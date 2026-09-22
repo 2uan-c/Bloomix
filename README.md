@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🌸 Bloomix
 
-# Run and deploy your AI Studio app
+**Bloomix** là một dự án cá nhân — ứng dụng trợ lý AI giúp gợi ý và thiết kế bó hoa, kết hợp giữa một scoring engine tự xây dựng (deterministic) và khả năng tư vấn thiết kế từ Gemini AI.
 
-This contains everything you need to run your app locally.
+## Giới thiệu
 
-View your app in AI Studio: https://ai.studio/apps/8e733e0b-a08e-4a38-a656-11cedc602b70
+Bloomix nhận đầu vào là dịp tặng hoa, phong cách mong muốn, loại hoa yêu thích... rồi tính toán và đề xuất các bó hoa phù hợp dựa trên hệ thống chấm điểm (màu sắc, phong cách, độ tương thích), đồng thời sử dụng Gemini để tư vấn thêm về mặt thẩm mỹ.
 
-## Run Locally
+Đây là dự án t tự làm để học và thực hành, đang trong quá trình phát triển và cải thiện dần.
 
-**Prerequisites:**  Node.js
+## Công nghệ sử dụng
 
+- React + TypeScript (Vite)
+- Google Gemini API
+- Deterministic scoring engine (tự viết)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Trạng thái
+
+🚧 Đang phát triển — một số tính năng có thể chưa hoàn thiện.
+
+## Chạy thử local
+
+```bash
+npm install
+npm run dev
+```
+
+Cần tạo file `.env` (dựa theo `.env.example`) và điền Gemini API key của bạn.
