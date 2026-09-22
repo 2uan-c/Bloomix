@@ -1,0 +1,422 @@
+{
+  "version": "1.0",
+  "description": "Default bouquet composition rules for Bloomix styles. These are design heuristics for the initial arrangement; users can manually reposition flowers.",
+  "global": {
+    "coordinateSystem": "normalized",
+    "bindingPoint": {
+      "x": 0.5,
+      "y": 0.78
+    },
+    "flowerMassCenter": {
+      "x": 0.5,
+      "y": 0.36
+    },
+    "quantityLimits": {
+      "minimumStems": 1,
+      "maximumStems": 20
+    }
+  },
+  "styles": {
+    "classic": {
+      "displayName": "Classic",
+      "shape": "round-dome",
+      "silhouette": "rounded",
+      "width": 0.82,
+      "height": 0.68,
+      "density": 0.86,
+      "symmetry": 0.92,
+      "negativeSpace": 0.18,
+      "flowerScaleVariation": 0.1,
+      "rotationVariation": 5,
+      "heightVariation": 0.1,
+      "depthVariation": 0.18,
+      "focal": {
+        "preferredRatio": 0.55,
+        "placement": "center",
+        "scaleMultiplier": 1.08,
+        "layer": "front-middle"
+      },
+      "secondary": {
+        "placement": "inner-ring",
+        "scaleMultiplier": 0.92,
+        "layer": "middle"
+      },
+      "filler": {
+        "density": 0.35,
+        "placement": "controlled-gaps",
+        "scaleMultiplier": 0.72,
+        "layer": "middle-front"
+      },
+      "foliage": {
+        "density": 0.38,
+        "placement": "low-outer-frame",
+        "scaleMultiplier": 0.85,
+        "layer": "back"
+      },
+      "stemDirection": "slightly-inward",
+      "defaultWrapping": "formal-white-wrap",
+      "defaultRibbon": "classic-ribbon"
+    },
+    "elegant": {
+      "displayName": "Elegant",
+      "shape": "structured-asymmetric",
+      "silhouette": "slightly-vertical",
+      "width": 0.72,
+      "height": 0.88,
+      "density": 0.7,
+      "symmetry": 0.62,
+      "negativeSpace": 0.34,
+      "flowerScaleVariation": 0.18,
+      "rotationVariation": 9,
+      "heightVariation": 0.24,
+      "depthVariation": 0.26,
+      "focal": {
+        "preferredRatio": 0.4,
+        "placement": "slightly-off-center",
+        "scaleMultiplier": 1.14,
+        "layer": "front-middle"
+      },
+      "secondary": {
+        "placement": "offset-inner",
+        "scaleMultiplier": 0.88,
+        "layer": "middle"
+      },
+      "filler": {
+        "density": 0.28,
+        "placement": "selective-gaps",
+        "scaleMultiplier": 0.7,
+        "layer": "middle-back"
+      },
+      "foliage": {
+        "density": 0.62,
+        "placement": "outer-frame-and-tall-accent",
+        "scaleMultiplier": 0.95,
+        "layer": "back"
+      },
+      "stemDirection": "gently-converging",
+      "defaultWrapping": "ivory-structured-wrap",
+      "defaultRibbon": "sage-ribbon"
+    },
+    "luxury": {
+      "displayName": "Luxury",
+      "shape": "layered-dome",
+      "silhouette": "full-rounded",
+      "width": 0.96,
+      "height": 0.8,
+      "density": 0.94,
+      "symmetry": 0.82,
+      "negativeSpace": 0.1,
+      "flowerScaleVariation": 0.2,
+      "rotationVariation": 8,
+      "heightVariation": 0.16,
+      "depthVariation": 0.42,
+      "focal": {
+        "preferredRatio": 0.55,
+        "placement": "central-layered-cluster",
+        "scaleMultiplier": 1.22,
+        "layer": "front-middle"
+      },
+      "secondary": {
+        "placement": "multi-ring",
+        "scaleMultiplier": 0.98,
+        "layer": "middle"
+      },
+      "filler": {
+        "density": 0.42,
+        "placement": "distributed-through-layers",
+        "scaleMultiplier": 0.68,
+        "layer": "middle-back"
+      },
+      "foliage": {
+        "density": 0.52,
+        "placement": "outer-frame",
+        "scaleMultiplier": 0.9,
+        "layer": "back"
+      },
+      "stemDirection": "converging-with-layered-depth",
+      "defaultWrapping": "premium-dark-wrap",
+      "defaultRibbon": "luxury-ribbon"
+    },
+    "minimal": {
+      "displayName": "Minimal",
+      "shape": "simple-hand-tied",
+      "silhouette": "clean-and-open",
+      "width": 0.56,
+      "height": 0.84,
+      "density": 0.42,
+      "symmetry": 0.84,
+      "negativeSpace": 0.64,
+      "flowerScaleVariation": 0.08,
+      "rotationVariation": 4,
+      "heightVariation": 0.12,
+      "depthVariation": 0.16,
+      "focal": {
+        "preferredRatio": 0.72,
+        "placement": "center-or-clean-offset",
+        "scaleMultiplier": 1.16,
+        "layer": "front"
+      },
+      "secondary": {
+        "placement": "minimal-support",
+        "scaleMultiplier": 0.82,
+        "layer": "middle"
+      },
+      "filler": {
+        "density": 0.12,
+        "placement": "very-limited-gaps",
+        "scaleMultiplier": 0.62,
+        "layer": "middle"
+      },
+      "foliage": {
+        "density": 0.22,
+        "placement": "subtle-low-frame",
+        "scaleMultiplier": 0.8,
+        "layer": "back"
+      },
+      "stemDirection": "clean-convergence",
+      "defaultWrapping": "simple-white-wrap",
+      "defaultRibbon": "minimal-ribbon"
+    },
+    "natural": {
+      "displayName": "Natural",
+      "shape": "loose-asymmetric",
+      "silhouette": "organic-irregular",
+      "width": 0.92,
+      "height": 0.98,
+      "density": 0.66,
+      "symmetry": 0.28,
+      "negativeSpace": 0.38,
+      "flowerScaleVariation": 0.26,
+      "rotationVariation": 16,
+      "heightVariation": 0.42,
+      "depthVariation": 0.34,
+      "focal": {
+        "preferredRatio": 0.3,
+        "placement": "offset",
+        "scaleMultiplier": 1.05,
+        "layer": "front-middle"
+      },
+      "secondary": {
+        "placement": "organic-scattered",
+        "scaleMultiplier": 0.92,
+        "layer": "middle"
+      },
+      "filler": {
+        "density": 0.72,
+        "placement": "open-gaps-and-outer-edge",
+        "scaleMultiplier": 0.68,
+        "layer": "middle-back"
+      },
+      "foliage": {
+        "density": 0.92,
+        "placement": "extended-outer-frame",
+        "scaleMultiplier": 1.04,
+        "layer": "back"
+      },
+      "stemDirection": "organic-divergence-to-binding",
+      "defaultWrapping": "natural-kraft-wrap",
+      "defaultRibbon": "natural-twine"
+    },
+    "playful": {
+      "displayName": "Playful",
+      "shape": "compact-round-mixed",
+      "silhouette": "rounded-irregular",
+      "width": 0.84,
+      "height": 0.78,
+      "density": 0.8,
+      "symmetry": 0.46,
+      "negativeSpace": 0.24,
+      "flowerScaleVariation": 0.28,
+      "rotationVariation": 13,
+      "heightVariation": 0.28,
+      "depthVariation": 0.28,
+      "focal": {
+        "preferredRatio": 0.28,
+        "placement": "distributed",
+        "scaleMultiplier": 1.0,
+        "layer": "front-middle"
+      },
+      "secondary": {
+        "placement": "distributed-around-center",
+        "scaleMultiplier": 0.96,
+        "layer": "middle"
+      },
+      "filler": {
+        "density": 0.65,
+        "placement": "between-main-flowers",
+        "scaleMultiplier": 0.68,
+        "layer": "middle"
+      },
+      "foliage": {
+        "density": 0.34,
+        "placement": "light-outer-frame",
+        "scaleMultiplier": 0.78,
+        "layer": "back"
+      },
+      "stemDirection": "varied-gentle-convergence",
+      "defaultWrapping": "light-kraft-wrap",
+      "defaultRibbon": "playful-ribbon"
+    },
+    "romantic": {
+      "displayName": "Romantic",
+      "shape": "rounded-hand-tied-dome",
+      "silhouette": "full-soft-rounded",
+      "width": 0.92,
+      "height": 0.8,
+      "density": 0.9,
+      "symmetry": 0.76,
+      "negativeSpace": 0.16,
+      "flowerScaleVariation": 0.16,
+      "rotationVariation": 8,
+      "heightVariation": 0.16,
+      "depthVariation": 0.34,
+      "focal": {
+        "preferredRatio": 0.52,
+        "placement": "center-cluster",
+        "scaleMultiplier": 1.16,
+        "layer": "front"
+      },
+      "secondary": {
+        "placement": "inner-and-middle-ring",
+        "scaleMultiplier": 0.92,
+        "layer": "middle"
+      },
+      "filler": {
+        "density": 0.88,
+        "placement": "soft-frame-around-focal",
+        "scaleMultiplier": 0.66,
+        "layer": "middle-front"
+      },
+      "foliage": {
+        "density": 0.58,
+        "placement": "soft-outer-frame",
+        "scaleMultiplier": 0.86,
+        "layer": "back"
+      },
+      "stemDirection": "soft-centered-convergence",
+      "defaultWrapping": "blush-ivory-wrap",
+      "defaultRibbon": "romantic-ribbon"
+    },
+    "rustic": {
+      "displayName": "Rustic",
+      "shape": "loose-wildflower",
+      "silhouette": "wide-irregular",
+      "width": 0.98,
+      "height": 1.02,
+      "density": 0.58,
+      "symmetry": 0.22,
+      "negativeSpace": 0.44,
+      "flowerScaleVariation": 0.32,
+      "rotationVariation": 19,
+      "heightVariation": 0.48,
+      "depthVariation": 0.3,
+      "focal": {
+        "preferredRatio": 0.18,
+        "placement": "distributed-offset",
+        "scaleMultiplier": 0.98,
+        "layer": "front-middle"
+      },
+      "secondary": {
+        "placement": "wild-scattered",
+        "scaleMultiplier": 0.9,
+        "layer": "middle"
+      },
+      "filler": {
+        "density": 0.84,
+        "placement": "outer-gaps-and-extended",
+        "scaleMultiplier": 0.64,
+        "layer": "middle-back"
+      },
+      "foliage": {
+        "density": 0.9,
+        "placement": "wild-extended-frame",
+        "scaleMultiplier": 1.06,
+        "layer": "back"
+      },
+      "stemDirection": "wild-convergence",
+      "defaultWrapping": "kraft-rustic-wrap",
+      "defaultRibbon": "rustic-twine"
+    },
+    "playful-1": {
+      "displayName": "Playful",
+      "variant": "playful1",
+      "shape": "compact-small-flower-dome",
+      "silhouette": "full-rounded-compact",
+      "width": 0.78,
+      "height": 0.68,
+      "density": 0.88,
+      "symmetry": 0.68,
+      "negativeSpace": 0.14,
+      "flowerScaleVariation": 0.1,
+      "rotationVariation": 7,
+      "heightVariation": 0.14,
+      "depthVariation": 0.24,
+      "focal": {
+        "preferredRatio": 0.1,
+        "placement": "distributed",
+        "scaleMultiplier": 0.82,
+        "layer": "middle"
+      },
+      "secondary": {
+        "placement": "even-distribution",
+        "scaleMultiplier": 0.92,
+        "layer": "front-middle"
+      },
+      "filler": {
+        "density": 0.78,
+        "placement": "dense-between-blooms",
+        "scaleMultiplier": 0.6,
+        "layer": "middle"
+      },
+      "foliage": {
+        "density": 0.25,
+        "placement": "subtle-behind-mass",
+        "scaleMultiplier": 0.76,
+        "layer": "back"
+      },
+      "stemDirection": "compact-gentle-convergence",
+      "defaultWrapping": "natural-kraft-wrap",
+      "defaultRibbon": "simple-playful-ribbon"
+    },
+    "soft": {
+      "displayName": "Soft",
+      "shape": "airy-round",
+      "silhouette": "soft-open-rounded",
+      "width": 0.84,
+      "height": 0.76,
+      "density": 0.62,
+      "symmetry": 0.66,
+      "negativeSpace": 0.42,
+      "flowerScaleVariation": 0.14,
+      "rotationVariation": 8,
+      "heightVariation": 0.22,
+      "depthVariation": 0.22,
+      "focal": {
+        "preferredRatio": 0.38,
+        "placement": "soft-center",
+        "scaleMultiplier": 1.05,
+        "layer": "front-middle"
+      },
+      "secondary": {
+        "placement": "gentle-inner-ring",
+        "scaleMultiplier": 0.9,
+        "layer": "middle"
+      },
+      "filler": {
+        "density": 0.82,
+        "placement": "airy-gaps",
+        "scaleMultiplier": 0.62,
+        "layer": "middle-back"
+      },
+      "foliage": {
+        "density": 0.48,
+        "placement": "light-outer-frame",
+        "scaleMultiplier": 0.84,
+        "layer": "back"
+      },
+      "stemDirection": "soft-convergence",
+      "defaultWrapping": "soft-cream-wrap",
+      "defaultRibbon": "soft-ribbon"
+    }
+  }
+}

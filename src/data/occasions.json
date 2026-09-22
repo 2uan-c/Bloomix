@@ -1,0 +1,175 @@
+{
+  "version": "1.1",
+  "occasions": [
+    {
+      "id": "birthday",
+      "name": "Birthday",
+      "displayName": "Sinh nhật",
+      "preferredStyles": [
+        "playful",
+        "soft",
+        "romantic",
+        "elegant"
+      ],
+      "styleCompatibility": {
+        "playful": 1,
+        "soft": 0.9,
+        "romantic": 0.9,
+        "elegant": 0.9,
+        "natural": 0.8,
+        "classic": 0.8,
+        "minimal": 0.7,
+        "luxury": 0.7,
+        "rustic": 0.6
+      }
+    },
+    {
+      "id": "anniversary",
+      "name": "Anniversary",
+      "displayName": "Kỷ niệm",
+      "preferredStyles": [
+        "romantic",
+        "elegant",
+        "classic"
+      ],
+      "styleCompatibility": {
+        "romantic": 1,
+        "elegant": 0.95,
+        "classic": 0.9,
+        "soft": 0.9,
+        "luxury": 0.9,
+        "minimal": 0.7,
+        "natural": 0.7,
+        "rustic": 0.6,
+        "playful": 0.4
+      }
+    },
+    {
+      "id": "valentines",
+      "name": "Valentine's Day",
+      "displayName": "Valentine",
+      "preferredStyles": [
+        "romantic",
+        "elegant",
+        "soft"
+      ],
+      "styleCompatibility": {
+        "romantic": 1,
+        "elegant": 0.9,
+        "soft": 0.9,
+        "luxury": 0.8,
+        "classic": 0.8,
+        "minimal": 0.7,
+        "natural": 0.6,
+        "rustic": 0.5,
+        "playful": 0.5
+      }
+    },
+    {
+      "id": "graduation",
+      "name": "Graduation",
+      "displayName": "Tốt nghiệp",
+      "preferredStyles": [
+        "elegant",
+        "classic",
+        "natural",
+        "soft"
+      ],
+      "styleCompatibility": {
+        "elegant": 1,
+        "classic": 1,
+        "natural": 0.9,
+        "soft": 0.9,
+        "minimal": 0.8,
+        "luxury": 0.8,
+        "playful": 0.7,
+        "romantic": 0.7,
+        "rustic": 0.6
+      }
+    },
+    {
+      "id": "congratulations",
+      "name": "Congratulations",
+      "displayName": "Chúc mừng",
+      "preferredStyles": [
+        "elegant",
+        "playful",
+        "classic"
+      ],
+      "styleCompatibility": {
+        "elegant": 0.95,
+        "playful": 0.9,
+        "classic": 0.9,
+        "natural": 0.8,
+        "soft": 0.8,
+        "luxury": 0.8,
+        "minimal": 0.7,
+        "romantic": 0.6,
+        "rustic": 0.6
+      }
+    },
+    {
+      "id": "thank-you",
+      "name": "Thank You",
+      "displayName": "Cảm ơn",
+      "preferredStyles": [
+        "soft",
+        "elegant",
+        "natural"
+      ],
+      "styleCompatibility": {
+        "soft": 1,
+        "elegant": 0.9,
+        "natural": 0.9,
+        "minimal": 0.8,
+        "classic": 0.8,
+        "romantic": 0.8,
+        "rustic": 0.7,
+        "playful": 0.7,
+        "luxury": 0.6
+      }
+    },
+    {
+      "id": "get-well",
+      "name": "Get Well",
+      "displayName": "Thăm người bệnh",
+      "preferredStyles": [
+        "natural",
+        "soft",
+        "playful"
+      ],
+      "styleCompatibility": {
+        "natural": 1,
+        "soft": 0.9,
+        "playful": 0.9,
+        "minimal": 0.8,
+        "elegant": 0.7,
+        "classic": 0.7,
+        "rustic": 0.7,
+        "romantic": 0.5,
+        "luxury": 0.4
+      }
+    },
+    {
+      "id": "celebration",
+      "name": "Celebration",
+      "displayName": "Lễ kỷ niệm / ăn mừng",
+      "preferredStyles": [
+        "playful",
+        "elegant",
+        "luxury"
+      ],
+      "styleCompatibility": {
+        "playful": 1,
+        "elegant": 0.9,
+        "luxury": 0.9,
+        "classic": 0.8,
+        "natural": 0.8,
+        "soft": 0.8,
+        "minimal": 0.7,
+        "romantic": 0.7,
+        "rustic": 0.6
+      }
+    }
+  ]
+}

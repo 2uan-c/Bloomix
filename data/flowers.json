@@ -1,0 +1,1285 @@
+[
+  {
+    "id": "rose",
+    "name": "Rose",
+    "displayName": "Hoa hồng",
+    "colors": [
+      "red",
+      "pink",
+      "white",
+      "yellow",
+      "peach"
+    ],
+    "roles": [
+      "focal"
+    ],
+    "styles": [
+      "romantic",
+      "elegant",
+      "classic"
+    ],
+    "occasions": {
+      "birthday": 0.9,
+      "anniversary": 1.0,
+      "valentines": 1.0,
+      "graduation": 0.6,
+      "congratulations": 0.7,
+      "thank-you": 0.8,
+      "get-well": 0.5,
+      "celebration": 0.8
+    },
+    "visual": {
+      "size": "medium",
+      "shape": "round",
+      "texture": "smooth",
+      "visualWeight": 7
+    },
+    "colorProfiles": {
+      "red": {
+        "temperature": "warm",
+        "saturation": "high"
+      },
+      "pink": {
+        "temperature": "warm",
+        "saturation": "low"
+      },
+      "white": {
+        "temperature": "neutral",
+        "saturation": "low"
+      },
+      "yellow": {
+        "temperature": "warm",
+        "saturation": "medium"
+      },
+      "peach": {
+        "temperature": "warm",
+        "saturation": "low"
+      }
+    },
+    "meaning": [
+      "love",
+      "appreciation",
+      "beauty"
+    ]
+  },
+  {
+    "id": "sunflower",
+    "name": "Sunflower",
+    "displayName": "Hoa hướng dương",
+    "colors": [
+      "yellow"
+    ],
+    "roles": [
+      "focal"
+    ],
+    "styles": [
+      "playful",
+      "natural"
+    ],
+    "occasions": {
+      "birthday": 1.0,
+      "anniversary": 0.5,
+      "valentines": 0.3,
+      "graduation": 1.0,
+      "congratulations": 1.0,
+      "thank-you": 0.8,
+      "get-well": 0.9,
+      "celebration": 1.0
+    },
+    "visual": {
+      "size": "large",
+      "shape": "round",
+      "texture": "bold",
+      "visualWeight": 9
+    },
+    "colorProfiles": {
+      "yellow": {
+        "temperature": "warm",
+        "saturation": "high"
+      }
+    },
+    "meaning": [
+      "happiness",
+      "optimism",
+      "success"
+    ]
+  },
+  {
+    "id": "peony",
+    "name": "Peony",
+    "displayName": "Hoa mẫu đơn",
+    "colors": [
+      "pink",
+      "white",
+      "peach"
+    ],
+    "roles": [
+      "focal"
+    ],
+    "styles": [
+      "romantic",
+      "soft",
+      "elegant",
+      "luxury"
+    ],
+    "occasions": {
+      "birthday": 0.9,
+      "anniversary": 1.0,
+      "valentines": 0.9,
+      "graduation": 0.7,
+      "congratulations": 0.8,
+      "thank-you": 0.9,
+      "get-well": 0.6,
+      "celebration": 0.8
+    },
+    "visual": {
+      "size": "large",
+      "shape": "round",
+      "texture": "soft",
+      "visualWeight": 8
+    },
+    "colorProfiles": {
+      "pink": {
+        "temperature": "warm",
+        "saturation": "low"
+      },
+      "white": {
+        "temperature": "neutral",
+        "saturation": "low"
+      },
+      "peach": {
+        "temperature": "warm",
+        "saturation": "low"
+      }
+    },
+    "meaning": [
+      "romance",
+      "prosperity",
+      "good fortune"
+    ]
+  },
+  {
+    "id": "hydrangea",
+    "name": "Hydrangea",
+    "displayName": "Hoa cẩm tú cầu",
+    "colors": [
+      "blue",
+      "pink",
+      "white",
+      "purple"
+    ],
+    "roles": [
+      "focal",
+      "secondary"
+    ],
+    "styles": [
+      "soft",
+      "elegant",
+      "natural",
+      "romantic"
+    ],
+    "occasions": {
+      "birthday": 0.9,
+      "anniversary": 0.8,
+      "valentines": 0.7,
+      "graduation": 0.8,
+      "congratulations": 0.8,
+      "thank-you": 0.9,
+      "get-well": 0.8,
+      "celebration": 0.8
+    },
+    "visual": {
+      "size": "large",
+      "shape": "clustered",
+      "texture": "soft",
+      "visualWeight": 8
+    },
+    "colorProfiles": {
+      "blue": {
+        "temperature": "cool",
+        "saturation": "medium"
+      },
+      "pink": {
+        "temperature": "warm",
+        "saturation": "low"
+      },
+      "white": {
+        "temperature": "neutral",
+        "saturation": "low"
+      },
+      "purple": {
+        "temperature": "cool",
+        "saturation": "medium"
+      }
+    },
+    "meaning": [
+      "gratitude",
+      "understanding",
+      "abundance"
+    ]
+  },
+  {
+    "id": "lily",
+    "name": "Lily",
+    "displayName": "Hoa ly",
+    "colors": [
+      "white",
+      "pink",
+      "orange"
+    ],
+    "roles": [
+      "focal"
+    ],
+    "styles": [
+      "elegant",
+      "classic",
+      "natural"
+    ],
+    "occasions": {
+      "birthday": 0.8,
+      "anniversary": 0.8,
+      "valentines": 0.5,
+      "graduation": 0.8,
+      "congratulations": 0.9,
+      "thank-you": 0.8,
+      "get-well": 0.8,
+      "celebration": 0.9
+    },
+    "visual": {
+      "size": "large",
+      "shape": "open",
+      "texture": "smooth",
+      "visualWeight": 8
+    },
+    "colorProfiles": {
+      "white": {
+        "temperature": "neutral",
+        "saturation": "low"
+      },
+      "pink": {
+        "temperature": "warm",
+        "saturation": "low"
+      },
+      "orange": {
+        "temperature": "warm",
+        "saturation": "high"
+      }
+    },
+    "meaning": [
+      "purity",
+      "elegance",
+      "renewal"
+    ]
+  },
+  {
+    "id": "orchid",
+    "name": "Orchid",
+    "displayName": "Hoa lan",
+    "colors": [
+      "white",
+      "purple",
+      "pink"
+    ],
+    "roles": [
+      "focal"
+    ],
+    "styles": [
+      "elegant",
+      "luxury",
+      "minimal",
+      "classic"
+    ],
+    "occasions": {
+      "birthday": 0.8,
+      "anniversary": 0.9,
+      "valentines": 0.8,
+      "graduation": 0.8,
+      "congratulations": 0.9,
+      "thank-you": 0.8,
+      "get-well": 0.7,
+      "celebration": 0.9
+    },
+    "visual": {
+      "size": "medium",
+      "shape": "open",
+      "texture": "smooth",
+      "visualWeight": 8
+    },
+    "colorProfiles": {
+      "white": {
+        "temperature": "neutral",
+        "saturation": "low"
+      },
+      "purple": {
+        "temperature": "cool",
+        "saturation": "medium"
+      },
+      "pink": {
+        "temperature": "warm",
+        "saturation": "low"
+      }
+    },
+    "meaning": [
+      "refinement",
+      "admiration",
+      "beauty"
+    ]
+  },
+  {
+    "id": "tulip",
+    "name": "Tulip",
+    "displayName": "Hoa tulip",
+    "colors": [
+      "pink",
+      "white",
+      "yellow",
+      "red",
+      "purple"
+    ],
+    "roles": [
+      "secondary"
+    ],
+    "styles": [
+      "soft",
+      "elegant",
+      "minimal",
+      "classic",
+      "playful"
+    ],
+    "occasions": {
+      "birthday": 0.9,
+      "anniversary": 0.8,
+      "valentines": 0.8,
+      "graduation": 0.8,
+      "congratulations": 0.8,
+      "thank-you": 0.9,
+      "get-well": 0.7,
+      "celebration": 0.8
+    },
+    "visual": {
+      "size": "medium",
+      "shape": "elongated",
+      "texture": "smooth",
+      "visualWeight": 5
+    },
+    "colorProfiles": {
+      "pink": {
+        "temperature": "warm",
+        "saturation": "low"
+      },
+      "white": {
+        "temperature": "neutral",
+        "saturation": "low"
+      },
+      "yellow": {
+        "temperature": "warm",
+        "saturation": "medium"
+      },
+      "red": {
+        "temperature": "warm",
+        "saturation": "high"
+      },
+      "purple": {
+        "temperature": "cool",
+        "saturation": "medium"
+      }
+    },
+    "meaning": [
+      "affection",
+      "cheerfulness",
+      "grace"
+    ]
+  },
+  {
+    "id": "carnation",
+    "name": "Carnation",
+    "displayName": "Hoa cẩm chướng",
+    "colors": [
+      "pink",
+      "red",
+      "white",
+      "peach"
+    ],
+    "roles": [
+      "secondary"
+    ],
+    "styles": [
+      "classic",
+      "soft",
+      "romantic",
+      "rustic"
+    ],
+    "occasions": {
+      "birthday": 0.8,
+      "anniversary": 0.8,
+      "valentines": 0.7,
+      "graduation": 0.7,
+      "congratulations": 0.8,
+      "thank-you": 1.0,
+      "get-well": 0.7,
+      "celebration": 0.8
+    },
+    "visual": {
+      "size": "medium",
+      "shape": "ruffled",
+      "texture": "ruffled",
+      "visualWeight": 5
+    },
+    "colorProfiles": {
+      "pink": {
+        "temperature": "warm",
+        "saturation": "low"
+      },
+      "red": {
+        "temperature": "warm",
+        "saturation": "high"
+      },
+      "white": {
+        "temperature": "neutral",
+        "saturation": "low"
+      },
+      "peach": {
+        "temperature": "warm",
+        "saturation": "low"
+      }
+    },
+    "meaning": [
+      "gratitude",
+      "admiration",
+      "affection"
+    ]
+  },
+  {
+    "id": "gerbera",
+    "name": "Gerbera",
+    "displayName": "Hoa đồng tiền",
+    "colors": [
+      "pink",
+      "orange",
+      "red",
+      "yellow",
+      "white"
+    ],
+    "roles": [
+      "secondary",
+      "focal"
+    ],
+    "styles": [
+      "playful",
+      "soft",
+      "natural"
+    ],
+    "occasions": {
+      "birthday": 1.0,
+      "anniversary": 0.5,
+      "valentines": 0.5,
+      "graduation": 0.9,
+      "congratulations": 1.0,
+      "thank-you": 0.8,
+      "get-well": 0.9,
+      "celebration": 1.0
+    },
+    "visual": {
+      "size": "medium",
+      "shape": "round",
+      "texture": "bold",
+      "visualWeight": 6
+    },
+    "colorProfiles": {
+      "pink": {
+        "temperature": "warm",
+        "saturation": "medium"
+      },
+      "orange": {
+        "temperature": "warm",
+        "saturation": "high"
+      },
+      "red": {
+        "temperature": "warm",
+        "saturation": "high"
+      },
+      "yellow": {
+        "temperature": "warm",
+        "saturation": "high"
+      },
+      "white": {
+        "temperature": "neutral",
+        "saturation": "low"
+      }
+    },
+    "meaning": [
+      "cheerfulness",
+      "success",
+      "energy"
+    ]
+  },
+  {
+    "id": "daisy",
+    "name": "Daisy",
+    "displayName": "Hoa cúc họa mi",
+    "colors": [
+      "white",
+      "yellow"
+    ],
+    "roles": [
+      "secondary"
+    ],
+    "styles": [
+      "soft",
+      "natural",
+      "playful",
+      "minimal"
+    ],
+    "occasions": {
+      "birthday": 0.9,
+      "anniversary": 0.7,
+      "valentines": 0.5,
+      "graduation": 0.8,
+      "congratulations": 0.8,
+      "thank-you": 0.9,
+      "get-well": 0.9,
+      "celebration": 0.8
+    },
+    "visual": {
+      "size": "small",
+      "shape": "round",
+      "texture": "delicate",
+      "visualWeight": 4
+    },
+    "colorProfiles": {
+      "white": {
+        "temperature": "neutral",
+        "saturation": "low"
+      },
+      "yellow": {
+        "temperature": "warm",
+        "saturation": "medium"
+      }
+    },
+    "meaning": [
+      "innocence",
+      "friendship",
+      "cheerfulness"
+    ]
+  },
+  {
+    "id": "chrysanthemum",
+    "name": "Chrysanthemum",
+    "displayName": "Hoa cúc",
+    "colors": [
+      "white",
+      "yellow",
+      "pink",
+      "purple"
+    ],
+    "roles": [
+      "secondary"
+    ],
+    "styles": [
+      "classic",
+      "natural",
+      "soft"
+    ],
+    "occasions": {
+      "birthday": 0.8,
+      "anniversary": 0.6,
+      "valentines": 0.4,
+      "graduation": 0.8,
+      "congratulations": 0.8,
+      "thank-you": 0.9,
+      "get-well": 0.9,
+      "celebration": 0.8
+    },
+    "visual": {
+      "size": "medium",
+      "shape": "round",
+      "texture": "dense",
+      "visualWeight": 5
+    },
+    "colorProfiles": {
+      "white": {
+        "temperature": "neutral",
+        "saturation": "low"
+      },
+      "yellow": {
+        "temperature": "warm",
+        "saturation": "medium"
+      },
+      "pink": {
+        "temperature": "warm",
+        "saturation": "low"
+      },
+      "purple": {
+        "temperature": "cool",
+        "saturation": "medium"
+      }
+    },
+    "meaning": [
+      "longevity",
+      "support",
+      "joy"
+    ]
+  },
+  {
+    "id": "baby-breath",
+    "name": "Baby's Breath",
+    "displayName": "Hoa baby",
+    "colors": [
+      "white",
+      "pink"
+    ],
+    "roles": [
+      "filler"
+    ],
+    "styles": [
+      "soft",
+      "romantic",
+      "minimal",
+      "elegant"
+    ],
+    "occasions": {
+      "birthday": 0.8,
+      "anniversary": 0.9,
+      "valentines": 0.9,
+      "graduation": 0.8,
+      "congratulations": 0.8,
+      "thank-you": 0.9,
+      "get-well": 0.8,
+      "celebration": 0.8
+    },
+    "visual": {
+      "size": "small",
+      "shape": "branching",
+      "texture": "airy",
+      "visualWeight": 2
+    },
+    "colorProfiles": {
+      "white": {
+        "temperature": "neutral",
+        "saturation": "low"
+      },
+      "pink": {
+        "temperature": "warm",
+        "saturation": "low"
+      }
+    },
+    "meaning": [
+      "purity",
+      "everlasting love",
+      "delicacy"
+    ]
+  },
+  {
+    "id": "waxflower",
+    "name": "Waxflower",
+    "displayName": "Hoa thanh liễu",
+    "colors": [
+      "white",
+      "pink",
+      "purple"
+    ],
+    "roles": [
+      "filler"
+    ],
+    "styles": [
+      "soft",
+      "natural",
+      "romantic",
+      "rustic"
+    ],
+    "occasions": {
+      "birthday": 0.8,
+      "anniversary": 0.8,
+      "valentines": 0.8,
+      "graduation": 0.7,
+      "congratulations": 0.8,
+      "thank-you": 0.9,
+      "get-well": 0.8,
+      "celebration": 0.8
+    },
+    "visual": {
+      "size": "small",
+      "shape": "branching",
+      "texture": "delicate",
+      "visualWeight": 2
+    },
+    "colorProfiles": {
+      "white": {
+        "temperature": "neutral",
+        "saturation": "low"
+      },
+      "pink": {
+        "temperature": "warm",
+        "saturation": "low"
+      },
+      "purple": {
+        "temperature": "cool",
+        "saturation": "low"
+      }
+    },
+    "meaning": [
+      "lasting affection",
+      "patience",
+      "gentleness"
+    ]
+  },
+  {
+    "id": "statice",
+    "name": "Statice",
+    "displayName": "Hoa statice",
+    "colors": [
+      "purple",
+      "pink",
+      "white",
+      "blue"
+    ],
+    "roles": [
+      "filler"
+    ],
+    "styles": [
+      "natural",
+      "rustic",
+      "soft",
+      "classic"
+    ],
+    "occasions": {
+      "birthday": 0.8,
+      "anniversary": 0.7,
+      "valentines": 0.6,
+      "graduation": 0.8,
+      "congratulations": 0.8,
+      "thank-you": 0.8,
+      "get-well": 0.8,
+      "celebration": 0.8
+    },
+    "visual": {
+      "size": "small",
+      "shape": "branching",
+      "texture": "papery",
+      "visualWeight": 2
+    },
+    "colorProfiles": {
+      "purple": {
+        "temperature": "cool",
+        "saturation": "medium"
+      },
+      "pink": {
+        "temperature": "warm",
+        "saturation": "low"
+      },
+      "white": {
+        "temperature": "neutral",
+        "saturation": "low"
+      },
+      "blue": {
+        "temperature": "cool",
+        "saturation": "medium"
+      }
+    },
+    "meaning": [
+      "remembrance",
+      "success",
+      "sympathy"
+    ]
+  },
+  {
+    "id": "eucalyptus",
+    "name": "Eucalyptus",
+    "displayName": "Bạch đàn",
+    "colors": [
+      "green"
+    ],
+    "roles": [
+      "foliage"
+    ],
+    "styles": [
+      "natural",
+      "minimal",
+      "soft",
+      "elegant"
+    ],
+    "occasions": {
+      "birthday": 0.8,
+      "anniversary": 0.8,
+      "valentines": 0.7,
+      "graduation": 0.8,
+      "congratulations": 0.8,
+      "thank-you": 0.8,
+      "get-well": 0.9,
+      "celebration": 0.8
+    },
+    "visual": {
+      "size": "medium",
+      "shape": "branching",
+      "texture": "matte",
+      "visualWeight": 3
+    },
+    "colorProfiles": {
+      "green": {
+        "temperature": "cool",
+        "saturation": "low"
+      }
+    },
+    "meaning": [
+      "freshness",
+      "calm",
+      "growth"
+    ]
+  },
+  {
+    "id": "ruscus",
+    "name": "Ruscus",
+    "displayName": "Lá ruscus",
+    "colors": [
+      "green"
+    ],
+    "roles": [
+      "foliage"
+    ],
+    "styles": [
+      "natural",
+      "minimal",
+      "classic",
+      "elegant"
+    ],
+    "occasions": {
+      "birthday": 0.8,
+      "anniversary": 0.8,
+      "valentines": 0.6,
+      "graduation": 0.8,
+      "congratulations": 0.8,
+      "thank-you": 0.8,
+      "get-well": 0.8,
+      "celebration": 0.8
+    },
+    "visual": {
+      "size": "medium",
+      "shape": "elongated",
+      "texture": "smooth",
+      "visualWeight": 3
+    },
+    "colorProfiles": {
+      "green": {
+        "temperature": "cool",
+        "saturation": "low"
+      }
+    },
+    "meaning": [
+      "freshness",
+      "stability",
+      "growth"
+    ]
+  },
+  {
+    "id": "fern",
+    "name": "Fern",
+    "displayName": "Lá dương xỉ",
+    "colors": [
+      "green"
+    ],
+    "roles": [
+      "foliage"
+    ],
+    "styles": [
+      "natural",
+      "rustic",
+      "soft"
+    ],
+    "occasions": {
+      "birthday": 0.8,
+      "anniversary": 0.7,
+      "valentines": 0.5,
+      "graduation": 0.8,
+      "congratulations": 0.8,
+      "thank-you": 0.8,
+      "get-well": 0.9,
+      "celebration": 0.8
+    },
+    "visual": {
+      "size": "large",
+      "shape": "branching",
+      "texture": "feathery",
+      "visualWeight": 4
+    },
+    "colorProfiles": {
+      "green": {
+        "temperature": "cool",
+        "saturation": "low"
+      }
+    },
+    "meaning": [
+      "nature",
+      "renewal",
+      "freshness"
+    ]
+  },
+  {
+    "id": "olive-branch",
+    "name": "Olive Branch",
+    "displayName": "Cành ô liu",
+    "colors": [
+      "green",
+      "silver"
+    ],
+    "roles": [
+      "foliage"
+    ],
+    "styles": [
+      "elegant",
+      "minimal",
+      "natural",
+      "classic"
+    ],
+    "occasions": {
+      "birthday": 0.7,
+      "anniversary": 0.8,
+      "valentines": 0.5,
+      "graduation": 0.9,
+      "congratulations": 0.9,
+      "thank-you": 0.8,
+      "get-well": 0.8,
+      "celebration": 0.8
+    },
+    "visual": {
+      "size": "medium",
+      "shape": "branching",
+      "texture": "matte",
+      "visualWeight": 3
+    },
+    "colorProfiles": {
+      "green": {
+        "temperature": "cool",
+        "saturation": "low"
+      },
+      "silver": {
+        "temperature": "neutral",
+        "saturation": "low"
+      }
+    },
+    "meaning": [
+      "peace",
+      "success",
+      "harmony"
+    ]
+  },
+  {
+    "id": "italian-ruscus",
+    "name": "Italian Ruscus",
+    "displayName": "Lá đuôi chồn Ý",
+    "colors": [
+      "green"
+    ],
+    "roles": [
+      "foliage"
+    ],
+    "styles": [
+      "elegant",
+      "natural",
+      "minimal",
+      "luxury"
+    ],
+    "occasions": {
+      "birthday": 0.8,
+      "anniversary": 0.8,
+      "valentines": 0.6,
+      "graduation": 0.8,
+      "congratulations": 0.9,
+      "thank-you": 0.8,
+      "get-well": 0.8,
+      "celebration": 0.8
+    },
+    "visual": {
+      "size": "large",
+      "shape": "elongated",
+      "texture": "smooth",
+      "visualWeight": 4
+    },
+    "colorProfiles": {
+      "green": {
+        "temperature": "cool",
+        "saturation": "low"
+      }
+    },
+    "meaning": [
+      "elegance",
+      "growth",
+      "abundance"
+    ]
+  },
+  {
+    "id": "lisianthus",
+    "name": "Lisianthus",
+    "displayName": "Hoa cát tường",
+    "colors": [
+      "pink",
+      "purple",
+      "white"
+    ],
+    "roles": [
+      "secondary",
+      "focal"
+    ],
+    "styles": [
+      "soft",
+      "romantic",
+      "elegant"
+    ],
+    "occasions": {
+      "birthday": 0.9,
+      "anniversary": 0.9,
+      "valentines": 0.8,
+      "graduation": 0.8,
+      "congratulations": 0.9,
+      "thank-you": 1.0,
+      "get-well": 0.8,
+      "celebration": 0.9
+    },
+    "visual": {
+      "size": "medium",
+      "shape": "ruffled",
+      "texture": "soft",
+      "visualWeight": 5
+    },
+    "colorProfiles": {
+      "pink": {
+        "temperature": "warm",
+        "saturation": "low"
+      },
+      "purple": {
+        "temperature": "cool",
+        "saturation": "medium"
+      },
+      "white": {
+        "temperature": "neutral",
+        "saturation": "low"
+      }
+    },
+    "meaning": [
+      "appreciation",
+      "gratitude",
+      "charm"
+    ]
+  },
+  {
+    "id": "calla-lily",
+    "name": "Calla Lily",
+    "displayName": "Hoa rum",
+    "colors": [
+      "white",
+      "yellow",
+      "pink"
+    ],
+    "roles": [
+      "focal"
+    ],
+    "styles": [
+      "minimal",
+      "elegant",
+      "luxury"
+    ],
+    "occasions": {
+      "birthday": 0.7,
+      "anniversary": 0.9,
+      "valentines": 0.8,
+      "graduation": 0.8,
+      "congratulations": 0.9,
+      "thank-you": 0.8,
+      "get-well": 0.6,
+      "celebration": 0.8
+    },
+    "visual": {
+      "size": "large",
+      "shape": "elongated",
+      "texture": "smooth",
+      "visualWeight": 7
+    },
+    "colorProfiles": {
+      "white": {
+        "temperature": "neutral",
+        "saturation": "low"
+      },
+      "yellow": {
+        "temperature": "warm",
+        "saturation": "medium"
+      },
+      "pink": {
+        "temperature": "warm",
+        "saturation": "low"
+      }
+    },
+    "meaning": [
+      "magnificence",
+      "beauty",
+      "rebirth"
+    ]
+  },
+  {
+    "id": "iris",
+    "name": "Iris",
+    "displayName": "Hoa diên vĩ",
+    "colors": [
+      "purple",
+      "blue",
+      "yellow",
+      "white"
+    ],
+    "roles": [
+      "secondary",
+      "focal"
+    ],
+    "styles": [
+      "elegant",
+      "natural",
+      "classic"
+    ],
+    "occasions": {
+      "birthday": 0.8,
+      "anniversary": 0.7,
+      "valentines": 0.6,
+      "graduation": 0.9,
+      "congratulations": 0.9,
+      "thank-you": 0.8,
+      "get-well": 0.8,
+      "celebration": 0.8
+    },
+    "visual": {
+      "size": "medium",
+      "shape": "open",
+      "texture": "delicate",
+      "visualWeight": 6
+    },
+    "colorProfiles": {
+      "purple": {
+        "temperature": "cool",
+        "saturation": "medium"
+      },
+      "blue": {
+        "temperature": "cool",
+        "saturation": "medium"
+      },
+      "yellow": {
+        "temperature": "warm",
+        "saturation": "medium"
+      },
+      "white": {
+        "temperature": "neutral",
+        "saturation": "low"
+      }
+    },
+    "meaning": [
+      "wisdom",
+      "hope",
+      "valor"
+    ]
+  },
+  {
+    "id": "ranunculus",
+    "name": "Ranunculus",
+    "displayName": "Hoa mao lương",
+    "colors": [
+      "pink",
+      "orange",
+      "yellow",
+      "white",
+      "red"
+    ],
+    "roles": [
+      "secondary",
+      "focal"
+    ],
+    "styles": [
+      "romantic",
+      "soft",
+      "playful",
+      "elegant"
+    ],
+    "occasions": {
+      "birthday": 0.9,
+      "anniversary": 0.9,
+      "valentines": 0.9,
+      "graduation": 0.8,
+      "congratulations": 0.8,
+      "thank-you": 0.9,
+      "get-well": 0.8,
+      "celebration": 0.8
+    },
+    "visual": {
+      "size": "medium",
+      "shape": "round",
+      "texture": "ruffled",
+      "visualWeight": 6
+    },
+    "colorProfiles": {
+      "pink": {
+        "temperature": "warm",
+        "saturation": "low"
+      },
+      "orange": {
+        "temperature": "warm",
+        "saturation": "high"
+      },
+      "yellow": {
+        "temperature": "warm",
+        "saturation": "high"
+      },
+      "white": {
+        "temperature": "neutral",
+        "saturation": "low"
+      },
+      "red": {
+        "temperature": "warm",
+        "saturation": "high"
+      }
+    },
+    "meaning": [
+      "radiance",
+      "charm",
+      "attractiveness"
+    ]
+  },
+  {
+    "id": "lavender",
+    "name": "Lavender",
+    "displayName": "Hoa oải hương",
+    "colors": [
+      "purple"
+    ],
+    "roles": [
+      "filler",
+      "foliage"
+    ],
+    "styles": [
+      "natural",
+      "rustic",
+      "soft",
+      "minimal"
+    ],
+    "occasions": {
+      "birthday": 0.8,
+      "anniversary": 0.7,
+      "valentines": 0.6,
+      "graduation": 0.7,
+      "congratulations": 0.7,
+      "thank-you": 0.8,
+      "get-well": 0.9,
+      "celebration": 0.7
+    },
+    "visual": {
+      "size": "small",
+      "shape": "elongated",
+      "texture": "airy",
+      "visualWeight": 2
+    },
+    "colorProfiles": {
+      "purple": {
+        "temperature": "cool",
+        "saturation": "low"
+      }
+    },
+    "meaning": [
+      "serenity",
+      "grace",
+      "calm"
+    ]
+  }
+]

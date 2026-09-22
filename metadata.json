@@ -1,0 +1,6 @@
+{
+  "name": "Bloomix",
+  "description": "AI-powered flower bouquet assistant with deterministic scoring engine and Gemini design consultation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

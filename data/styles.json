@@ -1,0 +1,160 @@
+{
+  "version": "1.1",
+  "styles": [
+    {
+      "id": "soft",
+      "name": "Soft",
+      "displayName": "Nhẹ nhàng",
+      "description": "Gentle, airy and delicate bouquet style."
+    },
+    {
+      "id": "romantic",
+      "name": "Romantic",
+      "displayName": "Lãng mạn",
+      "description": "Warm and emotionally expressive bouquet style."
+    },
+    {
+      "id": "elegant",
+      "name": "Elegant",
+      "displayName": "Thanh lịch",
+      "description": "Refined and sophisticated bouquet style."
+    },
+    {
+      "id": "minimal",
+      "name": "Minimal",
+      "displayName": "Tối giản",
+      "description": "Clean, restrained and visually uncluttered."
+    },
+    {
+      "id": "natural",
+      "name": "Natural",
+      "displayName": "Tự nhiên",
+      "description": "Organic, fresh and garden-inspired."
+    },
+    {
+      "id": "classic",
+      "name": "Classic",
+      "displayName": "Cổ điển",
+      "description": "Timeless and balanced bouquet style."
+    },
+    {
+      "id": "playful",
+      "name": "Playful",
+      "displayName": "Tươi vui",
+      "description": "Cheerful, colorful and energetic."
+    },
+    {
+      "id": "luxury",
+      "name": "Luxury",
+      "displayName": "Sang trọng",
+      "description": "Premium, refined and visually rich."
+    },
+    {
+      "id": "rustic",
+      "name": "Rustic",
+      "displayName": "Mộc mạc",
+      "description": "Warm, natural and handmade-looking."
+    }
+  ],
+  "compatibility": {
+    "soft": {
+      "soft": 1,
+      "romantic": 1,
+      "minimal": 0.8,
+      "natural": 0.7,
+      "elegant": 0.8,
+      "classic": 0.6,
+      "playful": 0.6,
+      "luxury": 0.5,
+      "rustic": 0.6
+    },
+    "romantic": {
+      "soft": 1,
+      "romantic": 1,
+      "minimal": 0.7,
+      "natural": 0.7,
+      "elegant": 0.9,
+      "classic": 0.8,
+      "playful": 0.5,
+      "luxury": 0.8,
+      "rustic": 0.6
+    },
+    "elegant": {
+      "soft": 0.8,
+      "romantic": 0.9,
+      "minimal": 0.9,
+      "natural": 0.7,
+      "elegant": 1,
+      "classic": 0.9,
+      "playful": 0.5,
+      "luxury": 1,
+      "rustic": 0.5
+    },
+    "minimal": {
+      "soft": 0.8,
+      "romantic": 0.7,
+      "minimal": 1,
+      "natural": 0.8,
+      "elegant": 0.9,
+      "classic": 0.7,
+      "playful": 0.5,
+      "luxury": 0.7,
+      "rustic": 0.5
+    },
+    "natural": {
+      "soft": 0.7,
+      "romantic": 0.7,
+      "minimal": 0.8,
+      "natural": 1,
+      "elegant": 0.7,
+      "classic": 0.7,
+      "playful": 0.8,
+      "luxury": 0.5,
+      "rustic": 1
+    },
+    "classic": {
+      "soft": 0.6,
+      "romantic": 0.8,
+      "minimal": 0.7,
+      "natural": 0.7,
+      "elegant": 0.9,
+      "classic": 1,
+      "playful": 0.5,
+      "luxury": 0.8,
+      "rustic": 0.7
+    },
+    "playful": {
+      "soft": 0.6,
+      "romantic": 0.5,
+      "minimal": 0.5,
+      "natural": 0.8,
+      "elegant": 0.5,
+      "classic": 0.5,
+      "playful": 1,
+      "luxury": 0.4,
+      "rustic": 0.7
+    },
+    "luxury": {
+      "soft": 0.5,
+      "romantic": 0.8,
+      "minimal": 0.7,
+      "natural": 0.5,
+      "elegant": 1,
+      "classic": 0.8,
+      "playful": 0.4,
+      "luxury": 1,
+      "rustic": 0.4
+    },
+    "rustic": {
+      "soft": 0.6,
+      "romantic": 0.6,
+      "minimal": 0.5,
+      "natural": 1,
+      "elegant": 0.5,
+      "classic": 0.7,
+      "playful": 0.7,
+      "luxury": 0.4,
+      "rustic": 1
+    }
+  }
+}

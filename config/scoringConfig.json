@@ -1,0 +1,87 @@
+{
+  "version": "1.1",
+  "weights": {
+    "color": 0.25,
+    "compatibility": 0.3,
+    "style": 0.2,
+    "occasion": 0.25
+  },
+  "scoreRanges": {
+    "excellent": {
+      "min": 90,
+      "label": "Excellent Match"
+    },
+    "veryGood": {
+      "min": 80,
+      "label": "Very Good"
+    },
+    "good": {
+      "min": 70,
+      "label": "Good"
+    },
+    "needsImprovement": {
+      "min": 60,
+      "label": "Needs Improvement"
+    },
+    "poor": {
+      "min": 0,
+      "label": "Poor Match"
+    }
+  },
+  "colorRules": {
+    "baseScore": 100,
+    "minScore": 40,
+    "maxDominantColors": 2,
+    "penalties": {
+      "threeDominantColors": 5,
+      "fourOrMoreDominantColors": 12,
+      "temperatureConflict": 8,
+      "multipleHighSaturationColors": 8,
+      "strongSaturationWithoutNeutral": 7
+    },
+    "bonuses": {
+      "controlledAccent": 3
+    }
+  },
+  "compatibilityRules": {
+    "baseScore": 100,
+    "minScore": 30,
+    "penalties": {
+      "noFocal": 20,
+      "tooManyFocal": 15,
+      "noSupportingFlowers": 10,
+      "missingFillerWhenNeeded": 5,
+      "tooManyHeavyFlowers": 10,
+      "largeVisualWeightDifference": 5,
+      "sameSize": 5,
+      "sameShape": 4,
+      "sameTexture": 3
+    },
+    "bonuses": {
+      "shapeDiversity": 3,
+      "textureDiversity": 2
+    }
+  },
+  "styleRules": {
+    "baseScore": 100,
+    "minScore": 30,
+    "directMatch": 1,
+    "compatibleMatch": 0.5,
+    "mismatch": 0,
+    "templateBonus": 5
+  },
+  "occasionRules": {
+    "baseScore": 100,
+    "minScore": 30,
+    "occasionStyleWeight": 0.15
+  },
+  "scoreFloors": {
+    "color": 40,
+    "compatibility": 30,
+    "style": 30,
+    "occasion": 30
+  },
+  "limits": {
+    "maxSingleCategoryPenalty": 20
+  }
+}
