@@ -6,7 +6,7 @@
 
 Bloomix nhận đầu vào là dịp tặng hoa, phong cách mong muốn, loại hoa yêu thích... rồi tính toán và đề xuất các bó hoa phù hợp dựa trên hệ thống chấm điểm (màu sắc, phong cách, độ tương thích), đồng thời sử dụng Gemini để tư vấn thêm về mặt thẩm mỹ.
 
-Đây là dự án t tự làm để học và thực hành, đang trong quá trình phát triển và cải thiện dần.
+Đây là dự án tự làm để học và thực hành, đang trong quá trình phát triển và cải thiện dần.
 
 ## Công nghệ sử dụng
 
