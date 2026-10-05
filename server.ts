@@ -6,7 +6,7 @@ import { geminiRouter } from "./server/routes/geminiRoutes.ts";
 async function startServer() {
   const app = express();
   // Reverse proxy routes all external traffic exclusively to port 3000.
-  const PORT = 3000;
+  const PORT = Number(process.env.PORT) || 3000;
 
   app.use(express.json({ limit: "15mb" }));
   app.use(express.urlencoded({ limit: "15mb", extended: true }));
@@ -21,7 +21,7 @@ async function startServer() {
   // regardless of extension (.png, .webp, .jpg) will ALWAYS serve the 100% transparent PNG version
   // with CORS headers (Access-Control-Allow-Origin: *) and clean cache control headers.
   app.get(["/assets/flowers/:file", "/flowers/:file"], (req, res, next) => {
-    const rawFile = req.params.file;
+    const rawFile = path.basename(req.params.file);
     const baseName = rawFile.replace(/\.(png|webp|jpg|jpeg)$/i, "").toLowerCase().trim();
     const candidatePaths = [
       path.join(process.cwd(), "public/assets/flowers", `${baseName}.png`),
